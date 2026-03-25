@@ -114,7 +114,7 @@ export default function App() {
             <div className="absolute inset-0 bg-sky-400 rounded-3xl blur-2xl opacity-20 animate-pulse" />
             <div className="relative w-28 h-28 rounded-3xl overflow-hidden border border-white/10 glass p-1.5 shadow-2xl">
               <img 
-                src="assets/kimizuka.jpg" 
+                src="public/assets/kimizuka.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover rounded-2xl"
                 referrerPolicy="no-referrer"
