@@ -9,10 +9,11 @@ import {
   Code2,
   Mail,
   CheckCircle2,
-  Sparkles,
-  Terminal,
-  Cpu,
-  Layers
+  Server,
+  Code,
+  Paintbrush,
+  Database
+
 } from "lucide-react";
 import { useState } from "react";
 
@@ -54,11 +55,12 @@ const links = [
   }
 ];
 
+
 const techStack = [
-  { name: "React", icon: <Layers className="w-3 h-3" /> },
-  { name: "TypeScript", icon: <Terminal className="w-3 h-3" /> },
-  { name: "Node.js", icon: <Cpu className="w-3 h-3" /> },
-  { name: "Tailwind", icon: <Sparkles className="w-3 h-3" /> },
+  { name: "Laravel", icon: <Server className="w-3 h-3" /> },     // backend
+  { name: "React", icon: <Code className="w-3 h-3" /> },         // frontend
+  { name: "Tailwind", icon: <Paintbrush className="w-3 h-3" /> },// styling
+  { name: "SQL", icon: <Database className="w-3 h-3" /> },       // database
 ];
 
 export default function App() {
@@ -112,7 +114,7 @@ export default function App() {
             <div className="absolute inset-0 bg-sky-400 rounded-3xl blur-2xl opacity-20 animate-pulse" />
             <div className="relative w-28 h-28 rounded-3xl overflow-hidden border border-white/10 glass p-1.5 shadow-2xl">
               <img 
-                src="https://picsum.photos/seed/satria/300/300" 
+                src="../assets/kimizuka.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover rounded-2xl"
                 referrerPolicy="no-referrer"
@@ -126,7 +128,7 @@ export default function App() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            Satria <span className="text-sky-400">Farel</span>
+            Satria Farel <span className="text-sky-400">Cipta Permata</span>
           </motion.h1>
           
           <motion.div 
@@ -136,7 +138,7 @@ export default function App() {
             transition={{ delay: 0.3 }}
           >
             <Code2 className="w-4 h-4" />
-            Web Developer
+            Junior Web Developer
           </motion.div>
         </div>
 
