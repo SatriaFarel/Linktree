@@ -48,7 +48,7 @@ const links = [
   },
   {
     name: "Website Portofolio",
-    url: "https://portofoliosf.vercel.app/",
+    url: "https://portofolio-sf.vercel.app/",
     icon: <Globe className="w-5 h-5" />,
     color: "hover:text-sky-400",
     description: "Showcase of my best work"
