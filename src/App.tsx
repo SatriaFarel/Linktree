@@ -20,7 +20,7 @@ import { useState } from "react";
 const links = [
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/SatriaFarel",
+    url: "https://www.linkedin.com/in/satria-farel-cipta-permata",
     icon: <Linkedin className="w-5 h-5" />,
     color: "hover:text-blue-400",
     description: "Professional network & experience"
