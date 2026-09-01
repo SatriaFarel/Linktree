@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌐 My Personal Linktree
 
-# Run and deploy your AI Studio app
+Selamat datang di repositori halaman tautan pribadi saya! 🚀
 
-This contains everything you need to run your app locally.
+Web ini dibuat menggunakan **React** untuk menampilkan seluruh link penting saya dalam satu tempat—mulai dari portofolio, media sosial, proyek web, hingga kontak.
 
-View your app in AI Studio: https://ai.studio/apps/ffb3852e-8e63-40d2-8543-7430cd1e8dbf
+---
 
-## Run Locally
+## 📌 Apa Saja yang Ada di Sini?
 
-**Prerequisites:**  Node.js
+Melalui web ini, kamu bisa menemukan:
+- 💻 **Portofolio & GitHub** – Proyek-proyek web development yang sedang/pernah saya garap.
+- 💼 **LinkedIn** – Profil profesional & riwayat pekerjaan.
+- 📬 **Kontak & Pesan** – Email dan media sosial untuk diskusi atau kolaborasi.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Teknologi yang Digunakan
+
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS *(atau ganti sesuai styling yang kamu pakai)*
+- **Icons:** Lucide React / React Icons
+- **Hosting:** Vercel / Netlify
+
+---
